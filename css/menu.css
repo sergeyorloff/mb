@@ -1,0 +1,157 @@
+nav {
+  left: 2px;
+  position: fixed;
+  width: auto;
+  margin: -103px 0 0 2px;
+  background-color: #333333F2;
+  z-index: 9999;
+}
+/* убираем отступы и поля, а также list-style для "ul", и добавляем "position:relative" */
+nav ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  list-style-type: none;
+  }
+/* применяем inline-block позиционирование к элементам навигации */
+nav ul li {
+  margin: auto;
+  display: inline-block;
+  color: #FF4D4D;
+  background-color: #333333F2;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+/* Цвет ссылок */
+nav a {
+  display: block;
+  padding: 0 12px;
+  text-align: left;
+  text-decoration: none;
+  line-height: 1.4em;
+  color: #FF4D4D;
+  }
+/* Цвет при наведении */
+nav a:hover {
+  color: #FFF;
+  background-color: #333333;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+/* Цвет активных ссылок */
+nav a:active {
+  color: #FF964D;
+  background-color: #333333;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+/* Цвет посещенных ссылок */
+nav a:visited {
+  color: grey;
+  background-color: #333333F2;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+/* скрываем выпадающие списки по умолчанию  и задаем абсолютное позиционирование */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  -webkit-box-shadow: 2px 2px 2px 0 #262626;
+  -moz-box-shadow: 2px 2px 2px 0 #262626;
+  -ms-box-shadow: 2px 2px 2px 0 #262626;
+  -o-box-shadow: 2px 2px 2px 0 #262626;
+  box-shadow: 2px 2px 2px 0 #262626;
+  }
+/* отображаем выпадающий список при наведении */
+nav ul li:hover > ul {
+  display: inherit;
+  }
+/* первый уровень выпадающего списка */
+nav ul ul li {
+  min-width: auto;
+  float: none;
+  display: list-item;
+  position: relative;
+  padding: -16px;
+  }
+/* второй, третий и последующие уровни смещаем 2 и 3 уровни влево  на значение длины первого уровня.*/
+nav ul ul ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  }
+/* Символ после строчки меню */
+/* измените '+' на любой другой символ, если нужно */
+/*
+li > a:after { content: ' -'; }
+li > a:only-child:after { content: ''; }
+*/
+.top-panel {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  margin: -20px 0 0 -16px;
+  padding: 24px;
+  z-index: 9998;
+  top: 0px;
+  left: 0px;
+  background-color: #333333;
+  -webkit-box-shadow: 0 8px 8px -8px #262626;
+  -moz-box-shadow: 0 8px 8px -8px #262626;
+  -ms-box-shadow: 0 8px 8px -8px #262626;
+  -o-box-shadow: 0 8px 8px -8px #262626;
+  box-shadow: 0 8px 8px -8px  #262626;
+  }
+.right-menu {right: 2px;}
+.left-menu {right: 30px;}
+.left-menu, .right-menu {
+  top: 0px;
+  z-index: 9999;
+  overflow: hidden;
+  position: fixed;
+  display: block;
+  margin: 0 2px 0 0;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 24px;
+  color: #FF4D4D;
+  background-color: #333333;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+.left-menu:hover, .right-menu:hover {
+  color: #FFF;
+  background-color: #333333;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+.left-menu:active, .right-menu:active {
+  color: #FF964D;
+  background-color: #333333;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }

@@ -24,7 +24,7 @@ h1 {
   line-height: 1.7em;
   text-transform: uppercase;
   text-align: center;
-  color: #FF4040;
+  color: #FF4D4D;
   padding: 48px 0 6px 0;
 }
 h2 {
@@ -37,37 +37,23 @@ h2 {
 h3 {
   line-height: 1.5em;
   text-align: center;
-  color: #FF5959;
+  color: #FF964D;
   padding: 24px 0 4px 0;
 }
 h4 {
   line-height: 1.4em;
   text-align: center;
   font-style: italic;
-  color: #FF6666;
+  color: #FF964D;
   padding: 12px 0 2px 0;
 }
 p {
   text-align: justify;
   text-indent: 24px;
 }
-ol, li {
+ol {
   text-align: left;
   margin: 0 1%;
-}
-a {
-	color: #FF4D4D; /* Цвет ссылок */
-  text-decoration: none;
- }
-a:hover {
-  color: white; /* Цвет при наведении */
-  text-decoration: underline;
-}
-a:active {
-  color: #FF8080; /* Цвет активных ссылок */
-}
-a:visited {
-  color: grey; /* Цвет посещенных ссылок */
 }
 hr {
   border: none; /* Убираем границу для браузера Firefox */
@@ -93,7 +79,7 @@ hr {
 }
 .contents {
   text-indent: 0;
-  padding-left: 24px;
+  padding: 0 48px;
 }
 .space-vertical {
   padding: 24px 0;
