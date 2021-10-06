@@ -78,9 +78,20 @@ ol li:before {
 }
 hr {
   border: none;
-  color: grey;
+}
+.hr1 {
+  height: 3px;
+  margin: 48px;
+  background-image: linear-gradient(to right, #00000000, #FF4D4D, #00000000);
+}
+.hr2 {
   height: 2px;
+  margin: 24px 96px;
   background-image: linear-gradient(to right, #00000000, #FF964D, #00000000);
+}
+.line {
+  border-left: 3px solid #FF964D;
+  border-right: 3px solid #FF964D;
 }
 img {
   width:360px;
@@ -92,12 +103,12 @@ img {
 }
 .quote {
   text-indent: 0;
-  padding: 24px 8% 0 8%
+  padding: 0 8%
 }
 .signature{
   text-align: right;
   text-indent: 0;
-  padding: 0 12% 24px 0 ;
+  padding: 0 12%;
 }
 .comments {
   text-indent: 0;
