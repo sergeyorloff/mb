@@ -11,7 +11,7 @@
   -webkit-overflow-scrolling: touch;
   }
 body {
-  font-family: Ubuntu, Geneva, Arial, Helvetica, sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-size: 1.1em;
   line-height: 1.4em;
   background: #404040;
@@ -50,21 +50,19 @@ p {
   text-align: justify;
   text-indent: 24px;
 }
-
 ol {
 	list-style-type: none;
 	counter-reset: num;
   text-align: left;
 }
-
 ol li {
   cursor: text !important;
+  background: #404040 !important;
   color: white;
 	position: relative;
 	margin: 0 0 0 0;
 	padding: 0 0 10px 0;
 }
-
 ol li:before {
 	content: counter(num) ')';
 	counter-increment: num;
@@ -76,12 +74,15 @@ ol li:before {
 	color: #FF964D;
 	text-align: right;
 }
-
 hr {
   border: none;
   color: grey;
   background-color: grey;
   height: 2px;
+}
+img {
+  width:360px;
+  height:auto;
 }
 .image {
   font-style: italic;
