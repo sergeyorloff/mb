@@ -79,8 +79,8 @@ ol li:before {
 hr {
   border: none;
   color: grey;
-  background-color: grey;
   height: 2px;
+  background-image: linear-gradient(to right, #00000000, #FF964D, #00000000);
 }
 img {
   width:360px;
