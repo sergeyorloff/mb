@@ -49,11 +49,13 @@ h4 {
 p {
   text-align: justify;
   text-indent: 24px;
+  margin: 0 12px;
 }
 ol {
 	list-style-type: none;
 	counter-reset: num;
   text-align: left;
+  margin: 0 12px;
 }
 ol li {
   cursor: text !important;
