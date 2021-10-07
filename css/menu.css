@@ -3,8 +3,8 @@ a {
 }
 
 nav {
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 4px;
   position: fixed;
   width: auto;
   z-index: 9999;
@@ -12,7 +12,7 @@ nav {
 
 ul {
   color: #FF4D4D;
-  background: #404040F2;
+  background: #404040E6;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -27,7 +27,7 @@ li {
 }
 
 li a {
-  color: #FF4D4D;
+  color: #FF964D;
   margin: 0 0.3rem;
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
@@ -46,7 +46,7 @@ li a:hover {
 }
 
 li a:active {
-  color: #FF964D;
+  color: #FF4D4D;
 }
 
 li:hover,
