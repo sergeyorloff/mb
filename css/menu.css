@@ -27,7 +27,7 @@ li {
 }
 
 li a {
-  color: #FF964D;
+  color: #FFF;
   margin: 0 0.3rem;
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
@@ -37,7 +37,7 @@ li a {
 }
 
 li a:hover {
-  color: #FFF;
+  color: #FF964D;
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
   -ms-transition: .3s ease-in-out;
