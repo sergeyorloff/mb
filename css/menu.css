@@ -4,7 +4,7 @@ a {
 
 nav {
   top: 0;
-  left: 4px;
+  left: 0;
   position: fixed;
   width: auto;
   z-index: 9999;
@@ -12,7 +12,7 @@ nav {
 
 ul {
   color: #FF4D4D;
-  background: #404040E6;
+  background: #404040;
   list-style: none;
   margin: 0;
   padding: 0;
