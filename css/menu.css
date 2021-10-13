@@ -88,7 +88,7 @@ ul li ul:focus {
 ul li ul li {
   width: 100%;
 }
-.top-panel {
+.panel {
   width: 100%;
   overflow: hidden;
   position: fixed;
