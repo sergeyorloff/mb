@@ -23,27 +23,31 @@ h1 {
   line-height: 1.7em;
   text-transform: uppercase;
   text-align: center;
-  color: #FF4D4D;
+  color: #FF5C4D;
+  text-shadow: 1px 1px 1px #262626, 0 0 2px #262626;
   padding: 48px 0 6px 0;
 }
 h2 {
   line-height: 1.6em;
   text-transform: uppercase;
   text-align: center;
-  color: #FF4D4D;
+  color: #FF5C4D;
+  text-shadow: 1px 1px 1px #262626, 0 0 2px #262626;
   padding: 36px 0 6px 0;
 }
 h3 {
   line-height: 1.5em;
   text-align: center;
-  color: #FF964D;
+  color: #FF884D;
+  text-shadow: 1px 1px 1px #262626, 0 0 2px #262626;
   padding: 24px 0 4px 0;
 }
 h4 {
   line-height: 1.4em;
   text-align: center;
   font-style: italic;
-  color: #FF964D;
+  color: #FF884D;
+  text-shadow: 1px 1px 1px #262626, 0 0 2px #262626;
   padding: 12px 0 2px 0;
 }
 p {
@@ -52,8 +56,8 @@ p {
   margin: 0 12px;
 }
 ol {
-	list-style-type: none;
-	counter-reset: num;
+  list-style-type: none;
+  counter-reset: num;
   text-align: left;
   margin: 0 12px;
 }
@@ -61,20 +65,20 @@ ol li {
   cursor: text !important;
   background: #404040 !important;
   color: white;
-	position: relative;
-	margin: 0 0 0 0;
-	padding: 0 0 10px 0;
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 0 0 10px 0;
 }
 ol li:before {
-	content: counter(num) ')';
-	counter-increment: num;
-	display: inline-block;
-	position: absolute;
-	top: 0px;
-	left: -48px;
-	width: 42px;
-	color: #FF964D;
-	text-align: right;
+  content: counter(num) ')';
+  counter-increment: num;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: -48px;
+  width: 42px;
+  color: #FF884D;
+  text-align: right;
 }
 hr {
   border: none;
@@ -82,16 +86,16 @@ hr {
 .hr1 {
   height: 3px;
   margin: 48px;
-  background-image: linear-gradient(to right, #00000000, #FF4D4D, #00000000);
+  background-image: linear-gradient(to right, #00000000, #FF5C4D, #00000000);
 }
 .hr2 {
   height: 2px;
   margin: 24px 96px;
-  background-image: linear-gradient(to right, #00000000, #FF964D, #00000000);
+  background-image: linear-gradient(to right, #00000000, #FF884D, #00000000);
 }
 .line {
-  border-left: 3px solid #FF964D;
-  border-right: 3px solid #FF964D;
+  border-left: 3px solid #FF884D;
+  border-right: 3px solid #FF884D;
 }
 img {
   width:360px;
