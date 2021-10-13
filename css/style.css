@@ -95,7 +95,8 @@ hr {
   background-image: linear-gradient(to right, #00000000, #FF884D, #00000000);
 }
 .line {
-  border: 3px solid #FF884D;
+  border-left: 3px solid #FF884D;
+  border-right: 3px solid #FF884D;
 }
 img {
   width:360px;
