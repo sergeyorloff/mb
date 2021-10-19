@@ -65,6 +65,11 @@ ol {
   counter-reset: num;
   text-align: left;
   margin: 0 12px;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
 }
 ol li {
   cursor: text !important;
