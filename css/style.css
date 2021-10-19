@@ -12,7 +12,7 @@
   }
 body {
   font-family: Ubuntu, sans-serif;
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.4em;
   background: #404040;
   color: #FFF;
@@ -103,16 +103,19 @@ img {
   height:auto;
 }
 .image {
+  font-style: italic;
   text-align: center !important;
 }
 .quote {
+  font-style: italic;
   text-indent: 0;
   padding: 0 8%
 }
 .signature{
+  font-style: italic;
   text-align: right;
   text-indent: 0;
-  padding: 0 12%;
+  padding: 0 8%;
 }
 .comments {
   text-indent: 0;
