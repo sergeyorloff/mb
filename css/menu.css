@@ -1,7 +1,6 @@
 a {
   text-decoration: none;
 }
-
 nav {
   top: 0;
   left: 0;
@@ -9,7 +8,6 @@ nav {
   width: auto;
   z-index: 9999;
 }
-
 ul {
   color: #FF4D4D;
   background: #383838;
@@ -17,50 +15,42 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 li {
   display: block;
   padding: 0.1rem 0.4rem;
   position: relative;
   text-decoration: none;
-  transition-duration: .3s ease-in-out;
 }
-
 li a {
   color: #FFF;
   text-shadow: 1px 1px 1px #262626, 0 0 2px #262626;
   margin: 0 0.1rem;
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -ms-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .618s ease-in-out;
+  -moz-transition: .618s ease-in-out;
+  -ms-transition: .618s ease-in-out;
+  -o-transition: .618s ease-in-out;
+  transition: .618s ease-in-out;
 }
-
 li a:hover {
   color: #FF964D;
   text-shadow: 1px 1px 1px #262626, 0 0 2px #262626;
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -ms-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .618s ease-in-out;
+  -moz-transition: .618s ease-in-out;
+  -ms-transition: .618s ease-in-out;
+  -o-transition: .618s ease-in-out;
+  transition: .618s ease-in-out;
 }
-
 li a:active {
   color: #FF4D4D;
   text-shadow: 1px 1px 1px #262626, 0 0 2px #262626;
 }
-
 li:hover,
 li:focus-within {
   cursor: pointer;
 }
-
 li:focus-within a {
   outline: none;
 }
-
 ul li ul {
   visibility: hidden;
   opacity: 0;
@@ -69,31 +59,28 @@ ul li ul {
   margin-top: 0.1rem;
   left: 0;
   display: none;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .618s ease-in-out;
+  -moz-transition: all .618s ease-in-out;
+  -ms-transition: all .618s ease-in-out;
+  -o-transition: all .618s ease-in-out;
+  transition: all .618s ease-in-out;
   -webkit-box-shadow: 0px 8px 12px -8px #262626;
   -moz-box-shadow: 0px 8px 12px -8px #262626;
   -ms-box-shadow: 0px 8px 12px -8px #262626;
   -o-box-shadow: 0px 8px 12px -8px #262626;
   box-shadow: 0px 8px 12px -8px #262626;
 }
-
 ul li:hover > ul,
 ul li:focus-within > ul,
 ul li ul:hover,
 ul li ul:focus {
-   visibility: visible;
-   opacity: 1;
-   display: block;
+  visibility: visible;
+  opacity: 1;
+  display: block;
 }
-
 ul li ul li {
   width: 100%;
-}
-.panel {
+}.panel {
   width: 100%;
   overflow: hidden;
   position: fixed;
