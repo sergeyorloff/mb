@@ -115,16 +115,15 @@ img {
   font-style: italic;
   text-align: center !important;
 }
-.quote {
+.quote, .signature {
+  font-size: .96em;
+  line-height: 1.3em;
   font-style: italic;
   text-indent: 0;
-  padding: 0 8%
+  padding: 0 4%
 }
-.signature{
-  font-style: italic;
+.signature {
   text-align: right;
-  text-indent: 0;
-  padding: 0 8%;
 }
 .comments {
   text-indent: 0;
